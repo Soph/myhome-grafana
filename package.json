@@ -1,0 +1,33 @@
+{
+  "name": "myhome-mqtt",
+  "version": "0.0.1",
+  "description": "Legrand MyHome to MQTT",
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "author": {
+    "name": "Stefan Haubold"
+  },
+  "scripts": {
+    "setup": "npm install -q --no-progress",
+    "build": "tsc --project tsconfig.json"
+  },
+  "dependencies": {
+    "correcting-interval": "^2.0.0",
+    "debug": "^2.4.5",
+    "fakegato-history": "^0.5.2",
+    "homebridge-myhome-tng": "github:simont77/homebridge-myhome",
+    "influx": "^5.0.7",
+    "moment": "^2.18.1",
+    "net": "^1.0.0",
+    "sha256": "^0.2.0",
+    "sprintf-js": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "8.10.2",
+    "ts-node": "^7.0.0",
+    "tslint": "^5.11.0",
+    "typescript": "^2.9.2"
+  }
+}

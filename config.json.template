@@ -1,0 +1,14 @@
+{
+  "influx": {
+    "host": "wilde31.haubi.com",
+    "database": "environment",
+    "username": "soph",
+    "password": "striker1Influx",
+    "protocol": "https"      
+  },
+  "myhome": {
+    "host": "192.168.1.14",
+    "port": 20000,
+    "password": "Haubi2018"
+  }
+}
